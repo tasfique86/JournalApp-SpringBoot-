@@ -1,0 +1,4 @@
+12:22:19.873 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:22:19.874 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:22:19.875 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12:22:20.134 [http-nio-8080-exec-3] ERROR n.e.journalApp2.service.UserService - Error occured for tas :
