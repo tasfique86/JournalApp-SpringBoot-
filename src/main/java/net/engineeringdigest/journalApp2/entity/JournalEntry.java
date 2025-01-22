@@ -2,6 +2,7 @@ package net.engineeringdigest.journalApp2.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import net.engineeringdigest.journalApp2.enums.Sentiment;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -20,6 +21,8 @@ public class JournalEntry {
     private String content;
 
     private LocalDateTime publishedDate;
+
+    private Sentiment sentiment;
 
 
 //    public LocalDateTime getPublishedDate() {
